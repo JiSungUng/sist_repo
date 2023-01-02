@@ -3,6 +3,7 @@ package day1229;
 public class WhileTest_05 {
 
 	public static void main(String[] args) {
+//		git 테스트
 		// while(조건식)
 //		{
 //		수행할 문장
