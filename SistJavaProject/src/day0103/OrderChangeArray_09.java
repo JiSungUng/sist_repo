@@ -1,5 +1,7 @@
 package day0103;
 
+import java.util.Arrays;
+
 public class OrderChangeArray_09 {
 
 	public static void main(String[] args) {
@@ -43,6 +45,9 @@ public class OrderChangeArray_09 {
 		}
 			
 			}
+//		Arrays.sort(arr);// 배열 arr 을 정렬한다.
+		
+		
 		for(int i =0 ;i<arr.length;i++) {
 			System.out.print(arr[i]+" ");
 		}	
