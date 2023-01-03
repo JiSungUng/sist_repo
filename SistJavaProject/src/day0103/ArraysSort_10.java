@@ -4,7 +4,7 @@ public class ArraysSort_10 {
 
 	public static void main(String[] args) {
 		
-		//문자열 오름차순 정렬
+		//문자열 오름차순 정렬 -> compareTo 활용하면된다.
 		
 		String data[]= {"이승기","유재석","하하","신민아","송혜교","강호동","노홍철"};
 		
