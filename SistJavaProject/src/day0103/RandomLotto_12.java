@@ -8,7 +8,7 @@ public class RandomLotto_12 {
 		int lotto []= new int [6];
 		
 		//임의의 수를 로또변수에 발생시켜서 넣어준다.
-		
+		for(int z=0;z<5;z++) {
 		for(int i=0;i<lotto.length;i++){
 				lotto[i]=(int)(Math.random()*45)+1;
 				
@@ -36,5 +36,6 @@ public class RandomLotto_12 {
 		for(int i=0; i<lotto.length;i++) {
 			System.out.printf("%5d",lotto[i]);
 		}
+}
 }
 }
