@@ -26,6 +26,7 @@ public class Array2Ch_05 {
 //					System.out.print(arr[i][j]+"\t");
 					System.out.printf("%d,%d=%2d\t",i,j,arr[i][j]);
 				}
+				System.out.println();
 			}
 	}
 
