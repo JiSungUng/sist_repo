@@ -22,6 +22,13 @@ public class Array2Ch_06 {
 			System.out.println();
 		}
 	
+		//출력#2
+		
+		for(int a[]:arr) {
+			for(int num :a) {
+				System.out.println(num+"\t");
+			}
+		}
 	
 	}
 
