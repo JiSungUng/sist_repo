@@ -20,7 +20,7 @@ class obTestA{
 	}
 
 	public static void setY(int yy) {
-		//staticdms this를 가지고있지않다.
+		//static은 this를 가지고있지않다.
 		//일반멤버변수 호출 못함.-> static 변수만 호출가능.
 		obTestA.y=yy;// this를 가지고 있지 않기 때문에.
 	}
