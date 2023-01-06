@@ -39,4 +39,12 @@ public class MyCar_13 {
 //		mc.getColor();
 		
 //	}
+	
+//	public void writeCarInfo() {
+//		System.out.println(carName);
+//		System.out.println(this.price);
+//		System.out.println(this.color);
+//	}
+//	
+	
 }
