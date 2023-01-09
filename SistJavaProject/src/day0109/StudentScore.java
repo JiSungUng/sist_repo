@@ -53,3 +53,4 @@ public static void writeStu(StudentScore [] st) {
 }
 
 }
+// 명확하게 부모것만 super.
