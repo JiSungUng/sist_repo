@@ -16,7 +16,7 @@ public class ExToken_01 {
 			System.out.println(i + ":" + arr[i]);
 
 		}
-		System.out.println("StringTokenzer를 이용한 분리");
+		System.out.println("StringTokenizer를 이용한 분리");
 		StringTokenizer st = new StringTokenizer(str, ","); //..어떤 기호를 기준으로 짜낸다?
 		System.out.println("총 토큰 수:"+st.countTokens());
 		
