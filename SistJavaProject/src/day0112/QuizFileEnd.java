@@ -91,7 +91,9 @@ public class QuizFileEnd {
 			
 		}finally {
 			try {
-				br.close();
+				if(br!=null)
+					br.close();
+				if(fr!=null)
 				fr.close();
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
