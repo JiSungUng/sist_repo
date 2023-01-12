@@ -91,7 +91,9 @@ public class QuizFileEnd {
 			
 		}finally {
 			try {
-				br.close();
+				if(br!=null)
+					br.close();
+				if(fr!=null)
 				fr.close();
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
@@ -111,7 +113,8 @@ public void sangPumDel() {
 			System.out.println("삭제 실패!");
 		}
 	}
-	
+//if (file.exists())
+//		file delete();  ->파일이 존재한다면 삭제한다.	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		QuizFileEnd end = new QuizFileEnd();
