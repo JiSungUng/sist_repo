@@ -23,7 +23,8 @@ public class CastingNum_03 {
 		System.out.println("두수 나누기: "+(s1/s2)); // 정수끼리 연산시 결과도 정수형
 		
 		
-		
+		float floatNum= Float.parseFloat(su2);
+		System.out.println(floatNum);
 		
 	}
 
