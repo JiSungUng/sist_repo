@@ -130,7 +130,7 @@ public class InfoCrudTest {
 		addr=sc.nextLine();
 		
 		//update info set name ='홍길동',addr ='서울시 마포구' whrer num=3;
-		sql="update info set name ='"+name+"',addr ='"+addr+"' where num="+3;
+		sql="update info set name ='"+name+"',addr ='"+addr+"' where num="+num;
 		System.out.println(sql);
 		
 		Connection conn=db.getConnection();
