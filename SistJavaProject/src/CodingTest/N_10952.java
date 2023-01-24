@@ -1,9 +1,6 @@
 package CodingTest;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
-
 
 public class N_10952 {
 
@@ -11,21 +8,20 @@ public class N_10952 {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		
-		List<String> s = new ArrayList<>();
-		
+		int sum[]= new int [];
 		int cnt=0;
 		while(true) {
 			int a = sc.nextInt();
-			int b =sc.nextInt();
-			String c=String.valueOf(a+b);
-			s.add(c);
+			int b= sc.nextInt();
+			
+			sum [cnt] =a+b;
 			cnt++;
 			if(a==0 &&b==0) {
 				break;
 			}
 		}
-		for(int i=0; i<10;i++) {
-			System.out.println(s.toString());
+		for(int i=0; i<sum.length;i++) {
+			System.out.println(sum[i]);
 		}
 	}
 
