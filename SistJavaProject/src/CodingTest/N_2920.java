@@ -5,11 +5,24 @@ import java.util.Scanner;
 public class N_2920 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Scanner sc= new Scanner(System.in);
-		int arr []= {1,2,3,4,5,6,7,8};
+		Scanner sc = new Scanner(System.in);
+		int[] inputs = new int[8];
+		for (int i = 0; i < inputs.length; i++) {
+			inputs[i] = sc.nextInt();
+		}
+		sc.close();
 		
-		System.out.println(arr[2]);
+		String output = "";
+		for (int i = 0; i < inputs.length - 1; i++) {
+			if (inputs[i] == inputs[i + 1] - 1) {
+				output = "ascending";
+			} else if (inputs[i] == inputs[i + 1] + 1) {
+				output = "descending";
+			} else {
+				output = "mixed";
+				break;
+			}
+		}
+		System.out.println(output);
 	}
-
 }
