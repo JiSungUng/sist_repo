@@ -18,6 +18,6 @@ public class N_10818 {
         
 		in.close();
 		Arrays.sort(arr);
-		System.out.print(arr[0] + "\b" + arr[N - 1]);
+		System.out.print(arr[0] + " " + arr[N - 1]);
 	}
 }
