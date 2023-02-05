@@ -28,7 +28,7 @@ public class OrderChangeArray_09 {
 			System.out.print(arr[i]+" ");
 			
 		}
-		
+		System.out.println();
 		
 		System.out.println("데이터를 오름차순으로 변경하기"); // 중첩 for문 이용.
 		//기준데이터는 0번부터 끝에서 두번째 까지

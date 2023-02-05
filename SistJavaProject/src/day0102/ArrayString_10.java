@@ -8,6 +8,7 @@ public class ArrayString_10 {
 		String [] str;  //선언
 		str=new String [4]; // 생성
 		
+		
 		//초기화
 		
 		str[0]="주하랑";
