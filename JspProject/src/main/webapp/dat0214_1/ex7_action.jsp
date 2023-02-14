@@ -11,22 +11,24 @@
 </head>
 <body>
 <%
-	String city1=request.getParameter("city");
-	String [] city2=request.getParameterValues("city2");
+	String name=request.getParameter("sang");
+	String color[]=request.getParameterValues("scolor");
+	String size=request.getParameter("ssize");
+	String chuga=request.getParameter("schuga");
 
 %>
 
-<h2>희망지역 1: <%=city1 %></h2>
-<h2>희망지역 2 : <%
-	if(city2==null){%>
-		<font color="red">지역선택 안함</font>
-	<%}else{
-		for(int i=0;i<city2.length;i++){%>
-			[<%=city2[i] %>]&nbsp;		
-		<%}%>
-		<b>총 <%=city2.length %>개 지역 선택함</b>
-		
-	<%}
-%></h3>
+<h2>상품명: <%=name %></h2>
+<h2>색상: <% for(int i=0;i<color.length;i++){%>
+		[<%=color[i] %>]&nbsp;
+<%}
+
+%></h2>
+
+
+
+<h2>사이즈: <%=size %></h2>
+<h2>추가 상품: <%=chuga %></h2>
+
 </body>
 </html>
